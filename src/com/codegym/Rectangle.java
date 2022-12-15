@@ -47,7 +47,7 @@ public class Rectangle extends Shape implements Resizeable{
         System.out.println("Rectangle Init size: " + getArea());
         double random = Math.random()*100+1;
         System.out.println("Increase size: " + random);
-        return getArea()*random;
+        return getArea() * random;
     }
 
     @Override
